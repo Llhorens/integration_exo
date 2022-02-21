@@ -1,0 +1,1064 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #232323;
+  color: #fff;
+  font-family: Inter;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --------------------------Hero Body CSS-------------------- */
+
+.hero {
+  flex-direction: column;
+  margin-bottom: 152px;
+}
+.top_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.phone {
+  display: flex;
+}
+.mail {
+  display: flex;
+}
+.text_and_image {
+  display: flex;
+  width: 80%;
+  height: 85%;
+  margin-left: 20%;
+}
+
+.top_menu .phone_top img,
+.top_menu .mail_top img {
+  width: 10%;
+  height: 70%;
+}
+.text_and_image img {
+  margin-top: 10%;
+  width: 55%;
+  height: 85%;
+  margin-left: 9%;
+}
+
+.text_and_image .olivier {
+  margin-bottom: 6%;
+}
+.text_and_button {
+  width: 40%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.hero_button {
+  display: flex;
+}
+/* -------------------Hero Clients------------------ */
+.clients p {
+  width: 100%;
+  margin-top: 12%;
+  margin-bottom: 2%;
+}
+
+.clients_img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.text_and_button .text {
+  margin-bottom: 8%;
+}
+.hero_button .red_button {
+  margin-left: 0;
+  margin-right: 7%;
+}
+.text_and_button .developpement {
+  margin-bottom: 4%;
+}
+
+.text_and_button .fullstack_design {
+  margin-bottom: 2%;
+}
+.text_and_button .line_title {
+  margin-bottom: 3%;
+}
+
+/* --------- Text HERO------- */
+.top_menu p {
+  margin: auto;
+  font-family: Inter;
+}
+p.olivier_top {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 200%;
+  line-height: 36px;
+  width: 154px;
+  height: 36px;
+}
+
+p.phone_top {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  width: 171px;
+  height: 24px;
+}
+
+p.email_top {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  width: 322.02px;
+  height: 24px;
+  left: 265px;
+  top: 30px;
+}
+
+p.fullstack_design {
+  width: 304px;
+  height: 24px;
+  left: 131px;
+  top: 154px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+p.hola {
+  width: 875.83px;
+  height: 101px;
+  left: 126px;
+  top: 211px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 101px;
+  letter-spacing: -3px;
+}
+p.olivier {
+  width: 340px;
+  height: 101px;
+  left: 128px;
+  top: 311px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 101px;
+  letter-spacing: -1px;
+  color: #f87f28;
+}
+p.developpement {
+  width: 441px;
+  height: 72px;
+  left: 131px;
+  top: 428px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+p.directeur {
+  width: 303px;
+  height: 24px;
+  left: 131px;
+  top: 524px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.clients p {
+  margin-bottom: 2%;
+  color: #bfbfbf;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+/* ------------------Services Body CSS-------------- */
+.service {
+  background-color: #202020;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.services .head_title {
+  margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+}
+.services .head_title .title {
+  margin-bottom: 0.2%;
+}
+.services .head_title .line_title {
+  margin: auto;
+  margin-bottom: 2%;
+  height: 3px;
+}
+.services .head_title .quote {
+  margin: auto;
+  margin-bottom: 7%;
+}
+.services_body {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.service_card {
+  width: 17%;
+}
+.service_card .service_card_title {
+  margin-bottom: 4%;
+}
+.service_card .service_card_text {
+  margin-bottom: 60%;
+}
+/* --------- Text Service -------- */
+p.quote {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  width: 24em;
+}
+p.title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: capitalize;
+}
+p.service_card_title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+p.service_card_text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #767e90;
+}
+
+/* -----------------Portfolio Body CSS--------------- */
+.portfolio {
+  display: flex;
+  width: 70%;
+  margin-left: 25%;
+  margin-bottom: 10%;
+}
+.portfolio .head_title .title {
+  margin-top: 25%;
+}
+.portfolio .head_title p,
+.line_title {
+  text-align: start;
+}
+.portfolio .head_title .line_title {
+  margin-bottom: 7%;
+}
+.portfolio .mosaic {
+  margin-left: 6%;
+}
+
+/* ----------------Experience Body CSS--------------- */
+.experience {
+  margin-left: 25%;
+  display: flex;
+  margin-bottom: 15%;
+}
+.experience .head_title {
+  margin-right: 9%;
+}
+.experience .head_title p {
+  text-align: start;
+}
+.experience .title {
+  margin-bottom: 2%;
+}
+.experience .line_title {
+  margin-bottom: 6%;
+}
+.experience .quote {
+  width: 242px;
+  margin-bottom: 15%;
+}
+.experience .quote p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.experience .card_xp {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 35px;
+  justify-content: space-between;
+  padding-right: 2em;
+}
+.experience .card_xp .date_title_xp {
+  flex-direction: column;
+}
+.card_xp .icon_date_xp {
+  display: flex;
+  margin-top: 34px;
+  flex-direction: row;
+  height: auto;
+}
+.card_xp .date_xp {
+  align-self: flex-start;
+  margin-bottom: 13px;
+  margin-left: 27px;
+}
+
+p.title_xp {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: capitalize;
+  margin-left: 47px;
+}
+p.text_xp {
+  width: 326px;
+  height: 96px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 35px;
+  margin-left: 80px;
+}
+hr {
+  width: 730px;
+  height: 1px;
+  left: 367px;
+  top: 297px;
+  background: rgba(173, 181, 189, 0.16);
+  border: none;
+}
+p.date_xp {
+  width: 195px;
+  height: 17px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+/* ------------------Skills Body CSS---------------- */
+.skills {
+  display: flex;
+  margin-bottom: 7%;
+}
+
+.menu_skills {
+  width: 750px;
+  height: auto;
+  padding-left: 20%;
+}
+.gr2 {
+  display: flex;
+}
+.skill_bar {
+  background-color: #2c2c2c;
+  border-radius: 12px;
+  display: flex;
+}
+.skill_bar img {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.skill_name {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.skill_percent {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: end;
+}
+.skill_percent {
+  width: 55px;
+  height: 22px;
+  background-color: #f87f28;
+  border-radius: 30px;
+  text-align: center;
+}
+.skill_percent p {
+  font-weight: 600;
+  font-size: 4px;
+  line-height: 24px;
+}
+.img_name {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+.img_name p {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+.percent {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+  padding-right: 10%;
+}
+
+.angular {
+  width: 299px;
+  height: 60px;
+}
+.react {
+  width: 350px;
+  height: 60px;
+  margin-left: 3%;
+}
+.nodejs {
+  width: 226px;
+  height: 60px;
+  margin-top: 3%;
+}
+.management {
+  width: 301px;
+  height: 60px;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+.analytics {
+  width: 287px;
+  height: 60px;
+  margin-top: 3%;
+}
+.brainstorm {
+  width: 287px;
+  height: 60px;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+.execution {
+  width: 482px;
+  height: 60px;
+  margin-top: 3%;
+}
+
+.skills .head_title p {
+  text-align: start;
+}
+.skills .line_title {
+  margin-bottom: 10%;
+}
+/* Testimonial Body CSS */
+.testimonial {
+  background-color: #202020;
+  display: flex;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  flex-direction: column;
+}
+.testimonial_maintext {
+  font-family: Inter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 36px;
+}
+.testimonial_author {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+}
+.author_info {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.testimonial_body img {
+  padding-left: 25%;
+  width: 120px;
+  height: 120px;
+  padding-right: 30px;
+}
+
+.testimonial_maintext {
+  font-family: Inter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 36px;
+  width: 677px;
+  height: 108px;
+  padding-bottom: 2%;
+}
+.testimonial_author {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  padding-top: 2%;
+}
+.author_info {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.testimonial .head_title {
+  padding-bottom: 5%;
+  flex-direction: column;
+  margin-right: 5%;
+}
+.testimonial .line_title {
+  margin: auto;
+}
+.testimonial_body .line_subtitle {
+  background-color: #f87f28;
+  width: 40px;
+  height: 3px;
+}
+.testimonial_body {
+  display: flex;
+}
+/* ----------------------Blog News Body CSS------------------- */
+.actualites {
+  margin-top: 6%;
+}
+
+.blog_news {
+  display: flex;
+  width: 40%;
+  margin-left: 20%;
+}
+
+.news_body {
+  margin-left: 23%;
+  padding-bottom: 5%;
+}
+.news_date {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #f87f28;
+}
+
+.news_title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 0.8%;
+  padding-bottom: 4%;
+}
+
+.news_text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  width: 522px;
+  height: 48px;
+  padding-bottom: 7%;
+  padding-top: 2%;
+}
+/* 
+
+
+
+
+
+*/
+/* ---------------------Contact Body CSS---------------- */
+.contact {
+  background-color: #202020;
+  display: flex;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+.contact input,
+textarea {
+  font-family: Inter;
+  font-size: 12px;
+}
+.contact input {
+  padding-left: 1em;
+  color: #fff;
+}
+.contact textarea {
+  padding: 1em;
+  color: #fff;
+}
+.form_title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 2%;
+}
+
+.form_subtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #bfbfbf;
+  margin-bottom: 2%;
+}
+
+.form_text {
+  width: 522px;
+  height: 72px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 4%;
+}
+
+.form_name,
+.form_email {
+  width: 253px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #202020;
+  border: 1px solid #828282;
+  box-sizing: border-box;
+}
+.form_msg {
+  width: 540px;
+  height: 155px;
+  margin-top: 2%;
+  border-radius: 4px;
+  background-color: #202020;
+  border: 1px solid #828282;
+  box-sizing: border-box;
+  margin-bottom: 5%;
+}
+.text_contact {
+  color: #767e90;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+}
+.abcd {
+  z-index: 5;
+  margin-top: -13px;
+  position: absolute;
+  background-color: #202020;
+  margin-left: 1%;
+}
+.abcde {
+  z-index: 5;
+  margin-top: -2px;
+  position: absolute;
+  background-color: #202020;
+  margin-left: 1%;
+}
+.but_send {
+  width: 165px;
+  height: 47px;
+  background-color: #bb2323;
+  border-radius: 50px;
+  text-align: center;
+  display: flex;
+  color: #ffffff;
+  padding: 10px 9px 10px 9px;
+
+  font-size: 14px;
+  display: block;
+  height: 24px;
+  line-height: 24px;
+}
+.nom_mail {
+  display: flex;
+}
+.votre_nom,
+.votre_mail {
+  display: flex;
+  flex-direction: column;
+}
+.votre_mail {
+  padding-left: 6.5%;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+}
+
+.contact_formulaire {
+  padding-left: 20%;
+}
+.contact_card .card_change {
+  width: 288px;
+  height: 64px;
+}
+.contact_card {
+  margin-bottom: 12%;
+}
+.contact_title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 60px;
+  text-transform: capitalize;
+  color: #bfbfbf;
+  padding-bottom: 10%;
+}
+
+.card_title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #f87f28;
+  padding-left: 7%;
+}
+.img_title {
+  display: flex;
+  height: 42px;
+}
+.card_text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  padding-left: 20%;
+}
+
+/* 
+
+
+
+
+
+*/
+/*_________________________________________________*/
+/* --------------------IMAGE---------------------- */
+/*
+*/
+
+.clients_img {
+  display: flex;
+  align-content: center;
+}
+.sega {
+  width: 6%;
+  height: 55%;
+  padding-left: 1%;
+  align-self: center;
+}
+.ubisoft {
+  width: 4%;
+  height: 55%;
+  padding-left: 1%;
+}
+.microsoft {
+  width: 11%;
+  height: 55%;
+  padding-left: 1%;
+}
+.ea {
+  width: 9%;
+  height: 55%;
+  padding-left: 1%;
+}
+.capcom {
+  align-self: center;
+  width: 7%;
+  height: 55%;
+  padding-left: 1%;
+}
+.bethesda {
+  align-self: center;
+  width: 8%;
+  height: 55%;
+  padding-left: 1%;
+}
+/* images Services */
+.service_card_tech img {
+  width: 53px;
+}
+/* ddddddddddddddddddddddddddddddddd */
+
+.mosaic {
+  margin-top: 8%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.portfolioImg {
+  display: flex;
+}
+
+.mosaic img {
+  border-radius: 40px;
+}
+.astro {
+  width: 480px;
+  height: 263px;
+  left: 380px;
+  top: 3px;
+}
+.laptop {
+  width: 227px;
+  height: 266px;
+  left: 884px;
+  padding-left: 3%;
+}
+.paint {
+  width: 227px;
+  height: 264px;
+  top: 290px;
+  left: 380px;
+  margin-top: 3%;
+}
+.water {
+  width: 479px;
+  height: 264px;
+  top: 290px;
+  left: 632px;
+  padding-left: 3%;
+  margin-top: 3%;
+}
+.machine {
+  width: 347px;
+  height: 264px;
+  top: 578px;
+  left: 380px;
+  margin-top: 3%;
+}
+.lemon {
+  width: 359px;
+  height: 264px;
+  top: 578px;
+  left: 752px;
+  padding-left: 3%;
+  margin-top: 3%;
+}
+
+/* expérience les 3 icones aujourdhui mai 2010 et sept 2008  */
+
+.icon_webdev {
+  width: 20px;
+  height: 18px;
+  top: 3px;
+  left: 2px;
+}
+.icon_directeur {
+  width: 20px;
+  height: 18px;
+  top: 3px;
+  left: 2px;
+}
+.icon_webdev2 {
+  width: 20px;
+  height: 18px;
+  top: 3px;
+  left: 2px;
+}
+
+/* les compétences ANGULAR LES BARRE QUOI AVEC DES PETITS TRUC 
+ORANGE DEDANS ET DE LA SAUCE SAMURAI QUI PIQUE POUR MANGER AVEC
+DES POMMES DE LA TERRE */
+
+/* coooooonnnnnnnntact niiiiinnnnnjaaaaaaa */
+
+/* formulaire de con con con contact ! yuuuuuu gi oh gi oh gi oh */
+
+/* 
+
+
+
+
+
+
+
+*/
+/* ___________________________________________________ */
+/* ------------------Contenu Récurent----------------- */
+/*  */
+/* -----------------------Button-------------------- */
+.red_button {
+  height: 47px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 50px;
+  border: 2px solid #bb2323;
+  background: #bb2323;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+.red_button p {
+  text-align: center;
+  height: 47px;
+  padding: 5px 10px;
+  margin: auto;
+  text-align: center;
+}
+.red_button:hover {
+  background: #fff;
+  color: #bb2323;
+}
+
+.orange_button {
+  height: 47px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 50px;
+  border: 2px solid #f87f28;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+}
+.red_button:hover {
+  background: #fff;
+  color: #bb2323;
+}
+
+.portfolio_button {
+  width: 123px;
+}
+.portfolio_button p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.download_button {
+  width: 194px;
+  text-align: center;
+}
+
+.download_button p {
+  font-family: Inter;
+  font-weight: 400;
+}
+
+.contact_button {
+  width: 131px;
+}
+.contact_button p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  color: #f87f28;
+  text-align: center;
+  height: 47px;
+  padding: 5px 10px;
+  margin: auto;
+  text-align: center;
+}
+
+/* --------------------Title Line-------------------- */
+.line_title {
+  background-color: #f87f28;
+  width: 73px;
+  height: 3px;
+}
+/* -------------------Burger MENU-------------------  */
+
+.burger_line {
+  background-color: #888888;
+  width: 24px;
+  height: 1px;
+  margin: auto;
+}
+.burger_menu {
+  width: 55px;
+  margin-left: 50%;
+  flex-direction: column;
+  margin-right: 60px;
+}
+
+/*
+
+
+
